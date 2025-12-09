@@ -1,0 +1,354 @@
+{
+  "experiment_name": "Context Engineering",
+  "timestamp": "2025-12-09T21:17:17.088803",
+  "config": {
+    "model": "claude-3-haiku-20240307",
+    "num_trials": 3,
+    "random_seed": 42
+  },
+  "raw_results": {
+    "trials": [
+      {
+        "baseline": {
+          "trial": 1,
+          "accuracy": 1.0,
+          "latency": 1.8863592624664307,
+          "tokens": 2608.9333333333334,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "select": {
+          "trial": 1,
+          "accuracy": 0.8,
+          "latency": 0.7712282339731852,
+          "tokens": 956.7333333333333,
+          "final_accuracy": 0.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "compress": {
+          "trial": 1,
+          "accuracy": 1.0,
+          "latency": 0.8440939585367838,
+          "tokens": 810.7333333333333,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "write": {
+          "trial": 1,
+          "accuracy": 1.0,
+          "latency": 2.8132873217264813,
+          "tokens": 517.0,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "baseline": {
+          "trial": 2,
+          "accuracy": 1.0,
+          "latency": 0.8966482321421305,
+          "tokens": 2660.5333333333333,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "select": {
+          "trial": 2,
+          "accuracy": 0.8666666666666667,
+          "latency": 2.7683378060658774,
+          "tokens": 947.4,
+          "final_accuracy": 0.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ]
+        },
+        "compress": {
+          "trial": 2,
+          "accuracy": 1.0,
+          "latency": 0.8216897487640381,
+          "tokens": 819.9333333333333,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "write": {
+          "trial": 2,
+          "accuracy": 1.0,
+          "latency": 0.757279904683431,
+          "tokens": 517.9333333333333,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "baseline": {
+          "trial": 3,
+          "accuracy": 1.0,
+          "latency": 2.0098438898722333,
+          "tokens": 2632.6,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "select": {
+          "trial": 3,
+          "accuracy": 1.0,
+          "latency": 0.930452028910319,
+          "tokens": 945.8666666666667,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "compress": {
+          "trial": 3,
+          "accuracy": 1.0,
+          "latency": 2.884378512700399,
+          "tokens": 796.4,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "write": {
+          "trial": 3,
+          "accuracy": 1.0,
+          "latency": 0.8557630221048991,
+          "tokens": 519.0666666666667,
+          "final_accuracy": 1.0,
+          "accuracy_trend": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    ]
+  },
+  "analysis": {
+    "metrics": {
+      "baseline": {
+        "accuracy": 1.0,
+        "latency": 1.597617128160265,
+        "tokens": 2634.0222222222224,
+        "final_accuracy": 1.0
+      },
+      "select": {
+        "accuracy": 0.888888888888889,
+        "latency": 1.4900060229831273,
+        "tokens": 950.0,
+        "final_accuracy": 0.3333333333333333
+      },
+      "compress": {
+        "accuracy": 1.0,
+        "latency": 1.516720740000407,
+        "tokens": 809.0222222222222,
+        "final_accuracy": 1.0
+      },
+      "write": {
+        "accuracy": 1.0,
+        "latency": 1.475443416171604,
+        "tokens": 518.0,
+        "final_accuracy": 1.0
+      }
+    },
+    "anova": {
+      "statistic": 3.5714285714285694,
+      "p_value": 0.06657349180186857,
+      "effect_size": 0.572519083969465,
+      "significant": false
+    },
+    "main_finding": "Best strategy: BASELINE (accuracy: 100.0%). Worst: SELECT (accuracy: 88.9%). ANOVA: F=3.57, p=0.0666 (no significant differences).",
+    "key_metrics": {
+      "Baseline Accuracy": "100.0%",
+      "Select Accuracy": "88.9%",
+      "Compress Accuracy": "100.0%",
+      "Write Accuracy": "100.0%"
+    },
+    "best_strategy": "baseline",
+    "statistical_significance": "ANOVA across 4 groups (baseline: M=1.000, select: M=0.889, compress: M=1.000, write: M=1.000): F=3.571, p=0.0666. Effect size (\u03b7\u00b2): 0.573. No significant differences."
+  },
+  "visualizations": [
+    "outputs_hard/context_engineering_comparison.png"
+  ],
+  "summary": "Experiment: Context Engineering\nDescription: Tests context management strategies (Select, Compress, Write)\n--------------------------------------------------\nMain Finding: Best strategy: BASELINE (accuracy: 100.0%). Worst: SELECT (accuracy: 88.9%). ANOVA: F=3.57, p=0.0666 (no significant differences).\n\nKey Metrics:\n  - Baseline Accuracy: 100.0%\n  - Select Accuracy: 88.9%\n  - Compress Accuracy: 100.0%\n  - Write Accuracy: 100.0%\n\nStatistical Significance: ANOVA across 4 groups (baseline: M=1.000, select: M=0.889, compress: M=1.000, write: M=1.000): F=3.571, p=0.0666. Effect size (\u03b7\u00b2): 0.573. No significant differences."
+}
