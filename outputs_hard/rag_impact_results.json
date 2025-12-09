@@ -1,0 +1,112 @@
+{
+  "experiment_name": "RAG Impact",
+  "timestamp": "2025-12-09T21:12:06.947237",
+  "config": {
+    "model": "claude-3-haiku-20240307",
+    "num_trials": 3,
+    "random_seed": 42
+  },
+  "raw_results": {
+    "trials": [
+      {
+        "full_context": {
+          "trial": 1,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 2.6437790393829346,
+          "input_tokens": 25790,
+          "context_tokens": 23147
+        },
+        "rag": {
+          "trial": 1,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 0.7031259536743164,
+          "input_tokens": 1967,
+          "context_tokens": 1738
+        }
+      },
+      {
+        "full_context": {
+          "trial": 2,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 24.009061098098755,
+          "input_tokens": 25804,
+          "context_tokens": 23129
+        },
+        "rag": {
+          "trial": 2,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 1.1213700771331787,
+          "input_tokens": 1965,
+          "context_tokens": 1732
+        }
+      },
+      {
+        "full_context": {
+          "trial": 3,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 56.160165786743164,
+          "input_tokens": 25839,
+          "context_tokens": 23139
+        },
+        "rag": {
+          "trial": 3,
+          "correct": true,
+          "confidence": 1.0,
+          "latency": 1.123703956604004,
+          "input_tokens": 1982,
+          "context_tokens": 1743
+        }
+      }
+    ]
+  },
+  "analysis": {
+    "metrics": {
+      "full": {
+        "accuracy": 1.0,
+        "latency": 27.60433530807495,
+        "tokens": 23138.333333333332
+      },
+      "rag": {
+        "accuracy": 1.0,
+        "latency": 0.9827333291371664,
+        "tokens": 1737.6666666666667
+      }
+    },
+    "comparisons": {
+      "accuracy": {
+        "test": "Independent Samples t-test",
+        "statistic": NaN,
+        "p_value": NaN,
+        "significant": false
+      },
+      "latency": {
+        "test": "Independent Samples t-test",
+        "statistic": 1.7115913394601139,
+        "p_value": 0.1621383061695125,
+        "significant": false
+      }
+    },
+    "improvements": {
+      "accuracy": 0.0,
+      "latency": 26.621601978937786,
+      "tokens": 21400.666666666664
+    },
+    "main_finding": "RAG improves accuracy by 0.0% (100.0% vs 100.0%). Latency reduced by 26.62s. Token usage reduced by 21401 tokens (92% savings).",
+    "key_metrics": {
+      "Full Context Accuracy": "100.0%",
+      "RAG Accuracy": "100.0%",
+      "Latency Improvement": "26.62s",
+      "Token Savings": "21401 (92%)"
+    },
+    "statistical_significance": "Comparing Full Context (M=1.000) vs RAG (M=1.000): t=nan, p=nan. Effect size (Cohen's d): 0.000 (negligible). Not statistically significant."
+  },
+  "visualizations": [
+    "outputs_hard/rag_comparison.png"
+  ],
+  "summary": "Experiment: RAG Impact\nDescription: Compares RAG vs Full Context retrieval strategies\n--------------------------------------------------\nMain Finding: RAG improves accuracy by 0.0% (100.0% vs 100.0%). Latency reduced by 26.62s. Token usage reduced by 21401 tokens (92% savings).\n\nKey Metrics:\n  - Full Context Accuracy: 100.0%\n  - RAG Accuracy: 100.0%\n  - Latency Improvement: 26.62s\n  - Token Savings: 21401 (92%)\n\nStatistical Significance: Comparing Full Context (M=1.000) vs RAG (M=1.000): t=nan, p=nan. Effect size (Cohen's d): 0.000 (negligible). Not statistically significant."
+}
